@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2687AAA1EC6F5C6F312A5821 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B26B552ED26A67467969E4D3 /* libPods.a */; };
+		CE07E0F41B164B2C0085F498 /* LikedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07E0F31B164B2C0085F498 /* LikedCollectionViewCell.swift */; };
+		CE07E0F81B164B620085F498 /* LikedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07E0F71B164B620085F498 /* LikedCollectionViewController.swift */; };
+		CEA40D1A1B163BF100542C62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA40D191B163BF100542C62 /* AppDelegate.swift */; };
+		CEA40D1C1B163BF100542C62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA40D1B1B163BF100542C62 /* ViewController.swift */; };
+		CEA40D1F1B163BF100542C62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA40D1D1B163BF100542C62 /* Main.storyboard */; };
+		CEA40D211B163BF100542C62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA40D201B163BF100542C62 /* Images.xcassets */; };
+		CEA40D241B163BF100542C62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA40D221B163BF100542C62 /* LaunchScreen.xib */; };
+		CEA40D3A1B163CA200542C62 /* GoogleImageSearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA40D391B163CA200542C62 /* GoogleImageSearchRequest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		258255598B27DC2FFA167BBB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B26B552ED26A67467969E4D3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD7E78AB985ADFDB6A051C4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CE07E0F01B1644E80085F498 /* COTD-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "COTD-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE07E0F31B164B2C0085F498 /* LikedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikedCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE07E0F71B164B620085F498 /* LikedCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikedCollectionViewController.swift; sourceTree = "<group>"; };
+		CEA40D141B163BF100542C62 /* Capybara of the Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capybara of the Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA40D181B163BF100542C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA40D191B163BF100542C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA40D1B1B163BF100542C62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEA40D1E1B163BF100542C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA40D201B163BF100542C62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEA40D231B163BF100542C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEA40D391B163CA200542C62 /* GoogleImageSearchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleImageSearchRequest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA40D111B163BF100542C62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2687AAA1EC6F5C6F312A5821 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA40D0B1B163BF100542C62 = {
+			isa = PBXGroup;
+			children = (
+				CEA40D161B163BF100542C62 /* COTD */,
+				CEA40D151B163BF100542C62 /* Products */,
+				D3B0E3E57574871D374E43DF /* Pods */,
+				DC156A670585CA77F116EC38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA40D151B163BF100542C62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA40D141B163BF100542C62 /* Capybara of the Day.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA40D161B163BF100542C62 /* COTD */ = {
+			isa = PBXGroup;
+			children = (
+				CE07E0F01B1644E80085F498 /* COTD-Bridging-Header.h */,
+				CE07E0F31B164B2C0085F498 /* LikedCollectionViewCell.swift */,
+				CEA40D391B163CA200542C62 /* GoogleImageSearchRequest.swift */,
+				CE07E0F71B164B620085F498 /* LikedCollectionViewController.swift */,
+				CEA40D191B163BF100542C62 /* AppDelegate.swift */,
+				CEA40D1B1B163BF100542C62 /* ViewController.swift */,
+				CEA40D1D1B163BF100542C62 /* Main.storyboard */,
+				CEA40D201B163BF100542C62 /* Images.xcassets */,
+				CEA40D221B163BF100542C62 /* LaunchScreen.xib */,
+				CEA40D171B163BF100542C62 /* Supporting Files */,
+			);
+			path = COTD;
+			sourceTree = "<group>";
+		};
+		CEA40D171B163BF100542C62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA40D181B163BF100542C62 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3B0E3E57574871D374E43DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCD7E78AB985ADFDB6A051C4 /* Pods.debug.xcconfig */,
+				258255598B27DC2FFA167BBB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC156A670585CA77F116EC38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B26B552ED26A67467969E4D3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA40D131B163BF100542C62 /* COTD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA40D331B163BF100542C62 /* Build configuration list for PBXNativeTarget "COTD" */;
+			buildPhases = (
+				059E244C298FB38765DE0D49 /* Check Pods Manifest.lock */,
+				CEA40D101B163BF100542C62 /* Sources */,
+				CEA40D111B163BF100542C62 /* Frameworks */,
+				CEA40D121B163BF100542C62 /* Resources */,
+				09A7C7DD751F5FE9DD488437 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = COTD;
+			productName = COTD;
+			productReference = CEA40D141B163BF100542C62 /* Capybara of the Day.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA40D0C1B163BF100542C62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					CEA40D131B163BF100542C62 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = CEA40D0F1B163BF100542C62 /* Build configuration list for PBXProject "COTD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA40D0B1B163BF100542C62;
+			productRefGroup = CEA40D151B163BF100542C62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA40D131B163BF100542C62 /* COTD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA40D121B163BF100542C62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA40D1F1B163BF100542C62 /* Main.storyboard in Resources */,
+				CEA40D241B163BF100542C62 /* LaunchScreen.xib in Resources */,
+				CEA40D211B163BF100542C62 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		059E244C298FB38765DE0D49 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		09A7C7DD751F5FE9DD488437 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA40D101B163BF100542C62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA40D3A1B163CA200542C62 /* GoogleImageSearchRequest.swift in Sources */,
+				CE07E0F81B164B620085F498 /* LikedCollectionViewController.swift in Sources */,
+				CEA40D1C1B163BF100542C62 /* ViewController.swift in Sources */,
+				CE07E0F41B164B2C0085F498 /* LikedCollectionViewCell.swift in Sources */,
+				CEA40D1A1B163BF100542C62 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEA40D1D1B163BF100542C62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA40D1E1B163BF100542C62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA40D221B163BF100542C62 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA40D231B163BF100542C62 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA40D311B163BF100542C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = "Capybara of the Day";
+				PRODUCT_NAME = "Capybara of the Day";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA40D321B163BF100542C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = "Capybara of the Day";
+				PRODUCT_NAME = "Capybara of the Day";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA40D341B163BF100542C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD7E78AB985ADFDB6A051C4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = COTD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_MODULE_NAME = COTD;
+				PRODUCT_NAME = "Capybara of the Day";
+				SWIFT_OBJC_BRIDGING_HEADER = "COTD/COTD-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA40D351B163BF100542C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258255598B27DC2FFA167BBB /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = COTD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_MODULE_NAME = COTD;
+				PRODUCT_NAME = "Capybara of the Day";
+				SWIFT_OBJC_BRIDGING_HEADER = "COTD/COTD-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA40D0F1B163BF100542C62 /* Build configuration list for PBXProject "COTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA40D311B163BF100542C62 /* Debug */,
+				CEA40D321B163BF100542C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA40D331B163BF100542C62 /* Build configuration list for PBXNativeTarget "COTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA40D341B163BF100542C62 /* Debug */,
+				CEA40D351B163BF100542C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA40D0C1B163BF100542C62 /* Project object */;
+}
